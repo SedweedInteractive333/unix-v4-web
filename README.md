@@ -64,9 +64,19 @@ for the same tricks.
 │  Released: November 1973                                    │
 │  Authors: Ken Thompson, Dennis Ritchie                      │
 │  Significance: First Unix with kernel written in C          │
-│  Recovered: December 2025 from University of Utah tape      │
+│                                                             │
+│  Tape Discovery: July 2025, University of Utah              │
+│  Location: Flux Research Group storage closet               │
+│  Labeled: "Marvin Newell" (received June 1974)              │
+│  Digitized: December 19, 2025 by Computer History Museum    │
+│  Read by: Al Kossow using modified tape reader              │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+The tape was discovered among materials belonging to Jay Lepreau and brought
+to the Computer History Museum by Jon Duerig and Thalia Archibald for
+preservation. Martin Newell received this tape around the time he created
+the famous Utah Teapot.
 
 ## Architecture
 
@@ -86,9 +96,11 @@ unix-v4-web/
 
 ## References
 
-- [squoze.net Unix V4](http://squoze.net/UNIX/v4/)
-- [Unix History Repository](https://github.com/dspinellis/unix-history-repo)
-- [MENACE](https://en.wikipedia.org/wiki/MENACE_(machine_learning))
+- [**Internet Archive: Utah Unix V4 Tape**](https://archive.org/details/utah_unix_v4_raw) — Raw tape image from Computer History Museum
+- [squoze.net Unix V4](http://squoze.net/UNIX/v4/) — Bootable disk images and instructions
+- [Unix History Repository](https://github.com/dspinellis/unix-history-repo) — Complete Unix source history
+- [MENACE](https://en.wikipedia.org/wiki/MENACE_(machine_learning)) — The matchbox learning machine that inspired ttt
+- [Tom's Hardware Article](https://www.tomshardware.com/software/linux/unix-v4-recovered-after-being-lost-for-decades) — Coverage of the tape recovery
 
 ## License
 
