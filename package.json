@@ -1,0 +1,36 @@
+{
+  "name": "unix-v4-web",
+  "version": "0.1.0",
+  "description": "Unix V4 (1973) simulation for browser and Node.js",
+  "type": "module",
+  "main": "src/index.js",
+  "browser": "dist/unix-v4.js",
+  "bin": {
+    "unix-v4": "./bin/unix-v4.js"
+  },
+  "scripts": {
+    "start": "node bin/unix-v4.js",
+    "dev": "node --watch bin/unix-v4.js",
+    "build": "esbuild src/index.js --bundle --outfile=dist/unix-v4.js --format=esm",
+    "test": "node --test src/**/*.test.js"
+  },
+  "keywords": [
+    "unix",
+    "pdp11",
+    "retrocomputing",
+    "1973",
+    "simulation",
+    "history",
+    "bell-labs",
+    "ken-thompson"
+  ],
+  "author": "Jason Walsh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aygp-dr/unix-v4-web"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  }
+}
